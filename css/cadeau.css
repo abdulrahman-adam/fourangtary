@@ -1,0 +1,59 @@
+.gift {
+    width: auto;
+    background-color: #ece9e9;
+    padding: 7px;
+    margin: 7px;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  #randomHeart {
+    text-decoration: underline;
+    color: #0d6efd;
+  }
+  
+  .cadeau {
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 14px;
+    width: 220px;
+    margin: 11px auto;
+    border-radius: 6px;
+    padding: 5px;
+  }
+  
+  @media only screen and (max-width: 530px) and (min-width: 200px) {
+    .cadeau {
+      width: auto;
+    }
+  }
+  #randomHeart:hover {
+    cursor: pointer;
+  }
+  
+  #containerHeart {
+    width: auto;
+    margin: 1px 6px;
+    padding: 7px;
+  }
+  
+  .heart {
+    padding: 7px;
+    font-size: 32px;
+    animation: fall 2s 1 linear forwards;
+    position: fixed;
+    top: 0;
+    left: 300px;
+    z-index: 1999;
+  }
+  
+  @keyframes fall {
+    0% {
+      transform: translateY(-5vh);
+    }
+  
+    100% {
+      transform: translateY(110vh);
+    }
+  }
+  

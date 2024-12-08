@@ -1,0 +1,85 @@
+.startInformation {
+    position: relative;
+    margin: 53px 5px auto;
+    text-align: center;
+  
+   height: 244px;
+
+  }
+  
+  /* Le traitement du javascript */
+  
+  .startInformation p {
+    padding: 4px;
+    width: 700px;
+    height: 233px;
+    margin: 3px auto;
+    border-radius: 13px;
+    position: absolute;
+    left: 25%;
+    transition: opacity 0.5s;
+    display: none;
+  }
+
+  .startInformation p img{
+    height: 220px;
+  }
+  
+  /* la classe active des paragraphes de arrière-plan */
+  
+  .startInformation p.active11 {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 789px) and (min-width: 200px) {
+   
+    .startInformation p {
+      width: auto;
+      left: 5%;
+      right: 5%;
+    }
+  }
+  
+  .travel {
+    position: relative;
+    margin: 5px auto;
+    text-align: center;
+    background-color: #c8f7f4;
+    padding: 11px;
+    width: auto;
+    margin: 1px 5px;
+    border-radius: 3px;
+    display: none;
+  }
+  
+  .travel p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+    background-color: rgb(89, 186, 251);
+    padding: 4px;
+    width: 700px;
+    margin: 3px auto;
+    border-radius: 13px;
+    position: absolute;
+    left: 25%;
+    transition: opacity 0.5s;
+    display: none;
+    border: 2px solid red;
+  }
+  
+  .travel p.active1111 {
+    display: block;
+  }
+  
+  @media only screen and (max-width: 789px) and (min-width: 200px) {
+    .travel {
+      display: block;
+    }
+    .travel p {
+      width: auto;
+      left: 5%;
+      right: 5%;
+    }
+  }
+  

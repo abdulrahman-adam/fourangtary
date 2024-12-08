@@ -1,0 +1,118 @@
+
+
+  /* La section afficher de la texte plus et afficher de la texte mois */
+  
+  .lirePlus {
+    margin: 11px auto;
+    width: 666px;
+    background-color: #8acaec;
+    font-size: 18px;
+  }
+  
+  #more1 {
+    display: none;
+  }
+  
+
+
+.section11{
+  
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.side{
+  width: 420px;
+    margin-top: 68px;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+.side img{
+   width: 333px;
+   height: 222px;
+   margin-bottom: 66px;
+}
+
+@media screen and (max-width: 720px) {
+    .side{
+        display: none;
+    }
+}
+
+
+/*  La section de l'animation*/
+
+/* La section de fondeur */
+.fondeur {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.fondeur img{
+  width: 270px;
+  border:1px solid black;
+}
+
+.word {
+    width: auto;
+    height: 77px;
+    background-color: #333;
+    
+    margin: 44px auto;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    font: 600 normal 2.5em 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
+
+  
+  .price {
+    animation: 2s anim-lineUp ease-out infinite;
+    color: rgb(15, 145, 238);
+    font-size: large;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+  @media screen and (max-width: 950px) {
+    .word {
+      width: auto;
+      height: auto;
+      background-color: #333;
+      margin: auto;
+      padding: 12px;
+      text-align: center;
+      color: white;
+      font: 400 normal 1.5em 'tahoma';
+      text-shadow: 3px 1px #222324, 1px 2px #222324, 1px 3px #222324;
+    }
+
+  }
+
+  @media screen and (max-width: 550px) {
+    .word {
+      width: 222px;
+      height: 122px;
+     
+    }
+
+  }

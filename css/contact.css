@@ -1,0 +1,91 @@
+.section {
+    margin: 22px 33px;
+  }
+  
+  .contactPragraph {
+    width: 666px;
+    margin: 22px auto;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 22px;
+    border-radius: 13px;
+    background-color: #fff;
+  }
+  
+  .contactPragraph p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .contactChildren {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .contactChildren1 {
+    width: 400px;
+  
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 44px;
+  }
+  
+  .contactChildren2 iframe {
+    width: 500px;
+    height: 333px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  @media only screen and (max-width: 865px) and (min-width: 200px) {
+    .section {
+      margin: 12px 13px;
+    }
+    .contactPragraph {
+      width: auto;
+    }
+  
+    .contactPragraph p {
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: center;
+      background-color:rgb(199, 194, 194);
+      padding: 9px;
+      border-radius: 9px;
+    }
+  
+    .contactChildren {
+      flex-direction: column;
+    }
+  
+    .contactChildren1 {
+      width: auto;
+    }
+  
+    .contactChildren2 iframe {
+      width: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 350px) and (min-width: 200px) {
+    .contactChildren1 {
+      width: auto;
+      padding: 5px;
+    }
+    .contactChildren2 iframe {
+      width: 222px;
+    }
+  }
+  
+  /* La section afficher de la texte plus et afficher de la texte mois */
+  
+  .lirePlus {
+    margin: 11px auto;
+    width: 666px;
+    background-color: #8acaec;
+    font-size: 18px;
+  }
+  
+  #more1 {
+    display: none;
+  }
+  
